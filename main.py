@@ -51,3 +51,31 @@ if response.status_code == 200:
         print("No Rain Tomorrow")
 else:
     print("Error: Unable to fetch weather data from API")
+
+=========================
+SAMPLE OUTPUT
+
+Model Accuracy: 0.7502658631690889
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0       0.84      0.83      0.84      8799
+           1       0.44      0.46      0.45      2485
+
+    accuracy                           0.75     11284
+   macro avg       0.64      0.65      0.64     11284
+weighted avg       0.75      0.75      0.75     11284
+
+
+Current Weather Data
+City: visakhapatnam,IN
+Temperature: 32.94 °C
+Humidity: 55 %
+Rainfall: 0 mm
+
+Prediction Result:
+Rain Tomorrow
+
+==========================
